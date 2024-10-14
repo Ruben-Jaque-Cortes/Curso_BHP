@@ -1,2 +1,2 @@
-# Curso_BHP
- curso de BHP - Codinj DOJO
+# Curso_BHP en GipHub
+ Primer repositorio en GipHub curso de BHP - Codinj DOJO
