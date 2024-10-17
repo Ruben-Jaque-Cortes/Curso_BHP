@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 2;
+    overflow: auto;
+}
+
+.partes{
+    display: flex;
+    justify-content: space-between;
+}
+
+div >ol{
+    list-style: none;
+    background-color: lightgray;
+    height: 50%;
+    width: 50%;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+}
+
+img{
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+}
