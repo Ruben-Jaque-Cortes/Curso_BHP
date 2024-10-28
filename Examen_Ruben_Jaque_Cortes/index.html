@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- BARRA DE LA IZQUIERDA -->
+    <nav>
+        <div class="izq">
+            <h1>miau <span>love</span></h1>
+            <img class="logogato" src="./assents/logo.png" alt="logogato">
+        </div>
+
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Subir Imagen</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Favoritos</a></li>
+            <li><a href="#">Recientes</a></li>
+        </ul>
+
+        <div class="btnizq">
+            <button class="boton1"> Configuración</button>
+            <button onclick="cerrar()" class="boton2">Cerrar Sesión</button>
+        </div>
+
+        <h3>Todos los derechos reservados miaulove ©</h3>
+
+    </nav>
+
+    <!-- Contenido Principal y duperior -->
+    <main>
+        <header><!-- Parte Superior -->
+
+            <button class="menu"><img src="./assents/menu.png" alt="menú"></button>
+
+            <div class="buscador">
+                <input type="text" placeholder="Buscar">
+                <button class="botonLupa"><img src="./assents/buscar.png" alt="Lupa"></button>
+            </div>
+
+        </header>
+
+
+        <!-- Parte central -->
+        <section>
+
+
+            <h1 class="titulo">¡Únete y comparte tu amor por los <strong>gatitos</strong>!</h1>
+
+
+            <div onclick="cambiocolor()" class="botoncentral">
+                <button class="btncentral">Gatitos</button>
+                <button class="btncentral">Juveniles</button>
+                <button class="btncentral">Adultos</button>
+            </div>
+
+            <aside class="card">
+                <div>
+                    <img class="imgGato" src="./assents/gato1.jpg" alt="ImgGatos">
+                    <div class="infgatos">
+                        <img class="corazon" onclick="darlike(this)" src="./assents/like.png" alt="Like">
+                        <!-- Aquí se agrega el evento al ícono del like -->
+                        <p data-like="0">0</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="imgGato" src="./assents/gato2.jpg" alt="ImgGatos">
+                    <div class="infgatos">
+                        <img class="corazon" onclick="darlike(this)" src="./assents/like.png" alt="Like">
+                        <!-- Aquí se agrega el evento al ícono del like -->
+                        <p data-like="0">0</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="imgGato" src="./assents/gato3.png" alt="ImgGatos">
+                    <div class="infgatos">
+                        <img class="corazon" onclick="darlike(this)" src="./assents/like.png" alt="Like">
+                        <!-- Aquí se agrega el evento al ícono del like -->
+                        <p data-like="0">0</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="imgGato" src="./assents/gato4.png" alt="ImgGatos">
+                    <div class="infgatos">
+                        <img class="corazon" onclick="darlike(this)" src="./assents/like.png" alt="Like">
+                        <!-- Aquí se agrega el evento al ícono del like -->
+                        <p data-like="0">0</p>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+
+article{
+    border: 2px solid lightgray;
+    margin: 16px 0px;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+
+#Deluxemg{
+    height: 200px;
+    transform: scale(1);
+}
+
+
+
+
+
+
+

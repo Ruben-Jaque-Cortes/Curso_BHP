@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    height: 80px;
+    padding: 10px 10px;
+    margin: 0px 50px;
+}
+
+nav >input{
+    width: 50%;
+}
+
+#cambiardef{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: rgb(38, 107, 245);
+}
+.superior{
+    border: 2px solid black;
+    padding: 20px 20px;
+    margin: 20px 10px 0px 50px;
+}
+
+.inferior{
+    border: 2px solid black;
+    padding: 20px 20px;
+    margin: 20px 10px 0px 50px;
+}
+
+
+.def{
+    display: flex;
+
+}
+
+.derecha{
+    border: 2px solid black;
+    height: 100%;
+    width: 40%;
+    margin: 20px 50px 0px 0px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+
+.todoizquieda{
+    display: flex;
+    width: 100%;
+}
+
+
+.boton{
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 25px;
+    width: 100px;
+    background-color: rgb(246, 246, 162);
+    box-shadow: 0.5px 1px 2px 1px grey;
+}
+
+.boton_der{
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    box-shadow: 0.5px 1px 2px 1px grey;
+}
+
+h3{
+    line-height: 50px;
+}
+
+p{
+    line-height: 30px;
+}

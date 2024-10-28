@@ -74,5 +74,9 @@ const transferir = (personaOrigen, personaDestino, monto) => {
 
 transferir(persona1,persona2,500)
 
+console.log(valor);
+
+
+/* Tipos de funciones */
 
 

@@ -1,0 +1,221 @@
+/* PLANTILLA DE INICIO */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* MIENTRAS ESTEN DESARROLLANDO */
+    /* outline: 2px dashed black; */
+}
+
+
+/* DISEÑO IZQUIERDA */
+body {
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    background-color: rgb(219, 120, 136);
+    border: none;
+}
+
+span {
+    color: rgb(255, 172, 186);
+}
+
+.logogato {
+    margin-top: 10px;
+}
+
+.izq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav>ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+li {
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.boton1,
+.boton2 {
+    margin: 10px 0px 0px 35px;
+    box-shadow: 2px 3px rgb(0, 0, 0);
+    /* Sombra completa */
+    width: 100px;
+    border: 3px solid black;
+    padding: 2px;
+    font-family: cursive;
+}
+
+.boton1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: rgb(214, 135, 148);
+    font-weight: bold;
+}
+
+.boton2 {
+    margin-bottom: 10px;
+    background-color: rgb(113, 29, 143);
+    color: white;
+    /* Color blanco del texto */
+    font-weight: bold;
+}
+
+
+nav>h3 {
+    margin-top: 80px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+/* DISEÑO DERECHA */
+main {
+    width: 70%;
+    border: px solid black;
+}
+
+section {
+    border: 2px solid black;
+    height: 521px;
+}
+
+/* DISEÑO PARTE SUPERIOR Y BUSCADOR */
+header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: rgb(219, 120, 136);
+    border: 2px solid black;
+}
+
+.botonLupa {
+    background-color: rgb(92, 3, 92);
+    width: 25px;
+    height: 20px;
+    box-shadow: 2px 3px rgb(0, 0, 0);
+}
+
+input {
+    border: 1px solid black;
+    font-family: cursive;
+    border: 2px solid black;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* DISEÑO DERECHA PARTE INFERIOR */
+.imgGato {
+    height: 110px;
+}
+
+
+aside {
+    display: flex;
+}
+
+.infgatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid rgb(82, 79, 79);
+    border-radius: 30px;
+    height: 30px;
+}
+
+.corazon {
+    height: 20px;
+    margin-top: 3px;
+}
+
+.titulo {
+    font-size: 30px;
+    margin: 40px 20px 20px 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.titulo h1 strong {
+    font-weight: bold;
+}
+
+/* DISEÑO BOTONES CENTRALES */
+
+.botoncentral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.btncentral {
+    background-color: rgb(226, 158, 169);
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 30%;
+    width: 80px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+/* PARA CAMBIAR EL COLOR AL PRESIONAR BOTONES CENTRALES */
+.cambioColor {
+    background-color: rgb(132, 33, 168);
+    ;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#btn_cen:hover {
+    background-color: rgb(132, 33, 168);
+    ;
+}
